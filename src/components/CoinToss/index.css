@@ -1,0 +1,104 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .coin-toss-container {
+    padding: 48px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #a35200;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+
+.probability-text {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #334155;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .probability-text {
+    font-size: 26px;
+  }
+}
+
+.toss-image {
+  width: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .toss-image {
+    width: 180px;
+  }
+}
+
+.toss-coin-button {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #a35200;
+  font-weight: 500;
+  background-color: #eccc58;
+  border-radius: 8px;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    flex-direction: row;
+  }
+}
+
+.result {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}
